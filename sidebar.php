@@ -59,7 +59,7 @@ echo "
                     if ($journal){
                         foreach ($journal as $item) {
                             echo "<div class='view_item addit_item' id=".$item[0]." addit_id=".$item[1].">"
-                            ."<div class='grid-group-item'><div class=grid-1-2'><div id='name' class='imp'>".$item[2]."</div><div id='user'>".$item[8]."</div><div id='addit_comment'>".$item[6]."</div></div>";
+                            ."<div class='grid-group-item'><div class='grid-2-3'><div id='name' class='imp'>".$item[2]."</div><div id='user'>".$item[8]."</div><div id='addit_comment'>".$item[6]."</div></div>";
 
                             if ($item[4] == '0') {
                               $item[4] = 'Не оплачено';
@@ -70,7 +70,7 @@ echo "
                             } elseif ($item[4] == 3) {
                               $item[4] = 'Выполнено';
                             }
-                            echo "<div class='grid-1-2 grid-align-right'><div id='addit_date'>".$item[7]."</div><span class='timestamp'>".$item[3]."</span><div id='status'>".$item[4]."</div></div>"
+                            echo "<div class='grid-1-3 grid-align-right'><div id='addit_date'>".$item[7]."</div><span class='timestamp'>".$item[3]."</span><div id='status'>".$item[4]."</div></div>"
 
 
 
