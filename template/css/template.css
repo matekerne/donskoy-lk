@@ -455,7 +455,7 @@ body.body-fix {
 .container-body {
   padding: 40px;
 }
-.container-body .margin-top {
+.container-body.margin-top {
   margin-top: 65px;
 }
 .container-body .container-content {

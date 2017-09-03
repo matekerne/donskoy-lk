@@ -116,9 +116,11 @@ var role = $(".status").attr('role');
 
 loadNews(".news-slider");
 if (role >= 3) {
+    $('.container-body').addClass('margin-top');
     getIndication(user_id);
 }
 chooseAddit(user_id, 'global');
+
 
 $("body").on("click",".addit_date",function(){
     $(".date_panel").toggle();
