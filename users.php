@@ -79,14 +79,11 @@ echo'<div id="boxIndication" class="container-body">
 
 
 
-                          <div class="form-input-group">
-
-                              <div class="grid-1-3">
-                                <input name="email" id="email" type="email" placeholder="example@mail.ru" placeholder="Email" />
-                              </div>
-                              <div class="grid-1-3">
-                                <input name="phone" class="person" id="phone" type="text" placeholder="Телефон" />
-                              </div>
+                          <div class="grid-expand-1">
+                              
+                            <input name="email" id="email" type="email" placeholder="example@mail.ru" placeholder="Email" />
+                            
+                            <input name="phone" class="person" id="phone" type="text" placeholder="Телефон" />
 
                           </div>
                     </div>
