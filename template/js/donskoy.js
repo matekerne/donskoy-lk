@@ -167,7 +167,7 @@ function loadHome() {
         success: function (res) {
             result = JSON.parse(res);
             str = '<table class="table table-border-left">'+
-                        '<thead class="table-header">'+
+                        '<thead class="table-header table-header__width-25">'+
                         '<th>Дом</th>'+
                         '<th>Характеристики</th>'+
                         '<th>Владелец</th>'+

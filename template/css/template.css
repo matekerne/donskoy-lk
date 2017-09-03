@@ -80,6 +80,9 @@
 .table .table-header tr > th {
   padding: 5px 10px;
 }
+.table .table-header__width-25 tr > th {
+  width: 25%;
+}
 .table .table-header.indication_table-header tr > th {
   width: 25%;
 }
