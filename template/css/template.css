@@ -182,10 +182,10 @@ input[disabled] {
   -moz-appearance: none;
   appearance: none;
 }
-.form .form-input-group [class*='grid'] > input[type=number]::-webkit-inner-spin-button,
-.form .form-input-group [class*='grid'] > input[type=number]::-webkit-outer-spin-button,
-.form .form-input-group [class*='grid'] label input[type=number]::-webkit-inner-spin-button,
-.form .form-input-group [class*='grid'] label input[type=number]::-webkit-outer-spin-button {
+.form .form-input-group [class*='grid'] > input::-webkit-inner-spin-button,
+.form .form-input-group [class*='grid'] > input::-webkit-outer-spin-button,
+.form .form-input-group [class*='grid'] label input::-webkit-inner-spin-button,
+.form .form-input-group [class*='grid'] label input::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
@@ -318,6 +318,7 @@ body.body-fix {
   width: calc(100% * 3 / 4);
 }
 .grid-expand-1 {
+  flex: 1;
   display: flex;
   padding-bottom: 15px;
   margin-right: -20px;
@@ -336,7 +337,6 @@ body.body-fix {
   border: 0;
   border-bottom: 1px solid #343434;
   padding: 5px 10px;
-  margin: 5px 0 5px 0;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -1437,32 +1437,6 @@ body.body-fix {
   width: 1px;
   height: 35px;
   background: #707070;
-}
-.addit_form select {
-  width: 100%;
-  background: none;
-  border: 1px solid transparent;
-  border-bottom: 1px solid #343434;
-  outline: none;
-  -webkit-box-flex: 30%;
-  -ms-flex: 30%;
-  flex: 30%;
-}
-.addit_form input {
-  -webkit-box-flex: 30%;
-  -ms-flex: 30%;
-  flex: 30%;
-  outline: none;
-  border: none;
-  border-bottom: 1px solid #343434;
-  margin: 0;
-}
-.addit_form input:nth-child(2) {
-  text-align: center;
-  -webkit-box-flex: 20%;
-  -ms-flex: 20%;
-  flex: 20%;
-  margin: 0 40px;
 }
 .addit_form .form-input-group {
   display: -webkit-box;

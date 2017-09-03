@@ -121,17 +121,17 @@ echo "
                             </tbody>
                         </table>
 
-                        <div class='addit_form'>
+                        <div class='form addit_form'>
                           <div class='addit_form-title'>
                             Дополнительные услуги
                           </div>
                           <div class='addit_close'></div>
-                          <div class='form-input-group'>
+                          <div class='grid-group-item'>
                             <div class='grid-expand-1'>
                               <select id='addit_id'>
                                  <option disabled selected>Что сделать?</option>
                               </select>
-                              <div class='grid-expand'>
+                              <div class='grid-1-3'>
                                 <input class='close_date' id='addit_date' placeholder='Когда?'/>
                               </div>
 
