@@ -17,7 +17,7 @@ echo "
             "Допольнительные услуги"=>"addit.php",
             "Контакты"=>"contact.php",
             "Автомобили"=>"auto.php",
-            "Все пользователи"=>"addit.php"
+            "Все пользователи"=>"users.php"
         );
         
         foreach ($menu as $title=>$url) {
