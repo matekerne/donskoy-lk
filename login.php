@@ -23,7 +23,7 @@ function selectUser() {
         }
         $res = mysqli_query(getConnect(), $request);
         $result = mysqli_fetch_all($res);
-        $str = '<table class="table"><thead class="table-header user_item-header">
+        $str = '<table class="table table-border-left"><thead class="table-header user_item-header">
                         <th>Фамилия</th>
                         <th>Имя</th>
                         <th>Отчество</th>
