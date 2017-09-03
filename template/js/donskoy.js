@@ -698,7 +698,7 @@ $(document).ready(function () {
                 if (res != '') {
                     alert("Запись успешно обновлена!");
                     closeForm('user_form');
-                    formLight();
+                    hideOverlay();
                     loadUser($(".sys_contact_street.active").attr('id'));
                 } else {
                     alert("Ошибка при попытке записать данные!");
