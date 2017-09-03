@@ -43,22 +43,25 @@ echo'<div id="boxIndication" class="container-body">
                               <option value="4">Работник</option>
                           </select>
 
-                          <div class="form-input-group">
+                          <div class="grid-expand-1">
 
-                              <div class="grid-1-3">
-                                <input name="login" id="login" type="text" placeholder="Введите логин" pattern="^[a-z,\.?]+(\d?)+$"/>
-                                <input name="user_name" id="user_name" type="text" placeholder="Введите имя"/>
-                              </div>
-                              <div class="grid-1-3">
-                                <input name="pass" id="pass" type="password" placeholder="Введите пароль"  pattern="^(\w+){3,32}$"/>
-                                <input name="user_lastname" id="user_lastname" type="text" placeholder="Введите отчество"/>
-                              </div>
-                              <div class="grid-1-3">
-                                <input name="user_surname" id="user_surname" type="text" placeholder="Введите фамилию"/>
-                                <input name="bank_book" class="person" id="bank_book" placeholder="Лицевой счет" />
-                              </div>
+                            <input name="login" id="login" type="text" placeholder="Введите логин" pattern="^[a-z,\.?]+(\d?)+$"/>
 
-                          </div>
+                            <input name="pass" id="pass" type="password" placeholder="Введите пароль"  pattern="^(\w+){3,32}$"/>
+
+                            <input name="user_surname" id="user_surname" type="text" placeholder="Введите фамилию"/>
+
+                         </div>
+
+                         <div class="grid-expand-1">
+                                
+                            <input name="user_name" id="user_name" type="text" placeholder="Введите имя"/>
+                            
+                            <input name="user_lastname" id="user_lastname" type="text" placeholder="Введите отчество"/>
+                            
+                            <input name="bank_book" class="person" id="bank_book" placeholder="Лицевой счет" />
+                              
+                         </div>
 
                             <div class="grid-expand-1">
                               <select id="home_id" class="person" name="home_id"">
